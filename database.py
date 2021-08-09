@@ -116,7 +116,7 @@ c.execute("""CREATE TABLE cart(
 )""")
 
 # criando tabela de pedidos que contem o produto e a quantidade
-c.execute("""CREATE TABLE order(
+c.execute("""CREATE TABLE orders(
         order_id INTEGER PRIMARY KEY,
         product_id INTEGER,
         quantity INTEGER,
